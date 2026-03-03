@@ -1,0 +1,8 @@
+streamlit
+numpy==2.0.2
+yfinance
+cloudpickle
+pandas==2.2.2
+matplotlib==3.10.0
+scikit-learn==1.6.1
+seaborn==0.12.3

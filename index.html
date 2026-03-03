@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Perkenalan Diri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .container {
+            background-color: #f9f9f9;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        .info {
+            margin: 20px 0;
+        }
+        .label {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Perkenalan Diri</h1>
+        
+        <div class="info">
+            <p><span class="label">Nama:</span> {{ data.nama }}</p>
+            <p><span class="label">NIM:</span> {{ data.nim }}</p>
+        </div>
+        
+        <div class="info">
+            <p><span class="label">Judul Skripsi:</span></p>
+            <p>{{ data.judul_skripsi }}</p>
+        </div>
+        
+        <div class="info">
+            <p><span class="label">Dosen Pembimbing:</span></p>
+            <p>1. {{ data.pembimbing1 }}</p>
+            <p>2. {{ data.pembimbing2 }}</p>
+        </div>
+    </div>
+</body>
+</html>
